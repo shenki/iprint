@@ -1,0 +1,26 @@
+.TH i 1
+.SH NAME
+i \- trivial integer print utility
+.SH SYNOPSIS
+.B i
+.I "arguments ..."
+.SH "DESCRIPTION"
+Given one or more arguments on the command line, it will print them in
+decimal, hexadecimal, octal and as ASCII characters (if printable).  If an
+argument begins with 0x, it is assumed to be hexadecimal.  Otherwise
+if an argument begins with 0, it is assumed to be octal.  Otherwise,
+if an argument begins with 0b or 0B, it is assumed to be binary.  Otherwise,
+if an argument begins with a digit, it is assumed to be a decimal
+number.  Otherwise, the argument is treated as one ASCII character at
+a time.
+.SH OPTIONS
+.B i
+doesn't take any options, but invoking it it with any arbitrary text string,
+such as "1234", "\-\-help", etc., would demonstrate how
+the program functions.
+.SH "SEE ALSO"
+ascii(7)
+.SH AUTHOR
+This manual page was written by Paul Russell <prussell@alderaan.franken.de>,
+for the Debian GNU/Linux system (but may be used by others).
+
