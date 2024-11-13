@@ -1,0 +1,26 @@
+iprint
+
+This package was debianized by Paul Russell prussell@alderaan.franken.de on
+Mon,  8 Oct 2001 18:00:19 +1000.
+
+In 2002 Mattias Wadman <mattias.wadman@galaxen.se> added support for printing
+binary, and rewrote a majority of the program in doing so.
+
+Since Aug 2005, was maintained by Thijs Kinkhorst <thijs@debian.org>.
+
+It was downloaded using rsync from samba.org::cvs/junkcode/i.c,v.
+
+In 2008 it was sadly removed from the Debian archive. See
+https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=900620
+
+In 2024 Joel Stanley <joel@jms.id.au> created this repository using the history
+from Tridge's junkcode directory on github, the Debian package retrieved from
+archive.debian.org, and the Debian bug tracker.
+
+
+Upstream Author: Andrew Tridgell <tridge@samba.org>
+
+This software is copyright (c) 2000,2001 by Andrew Tridgell
+
+You are free to distribute this software under the terms of the GNU
+General Public License.
